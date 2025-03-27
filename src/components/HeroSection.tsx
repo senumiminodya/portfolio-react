@@ -1,5 +1,7 @@
 import './HeroSection.css'
+import {useNavigate} from "react-router-dom";
 function HeroSection() {
+    const navigate = useNavigate(); // Hook to navigate between pages
     return (
         <section className="flex flex-col-reverse mt-[64px] md:flex-row justify-center items-center min-h-screen bg-gray-800 text-white px-4 py-8 md:py-12">
 
@@ -12,7 +14,11 @@ function HeroSection() {
                     <img src="/src/assets/index_page_images/header_images/facebook_logo.png" alt="Facebook" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
                     <img src="/src/assets/index_page_images/header_images/github_logo.png" alt="GitHub" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
                 </div>
-                <button className="mt-6 px-4 py-2 md:px-6 md:py-3 bg-yellow-500 text-black font-bold rounded-lg text-sm md:text-base hover:bg-white hover:text-yellow-500 transition-all">
+                {/* View CV Button */}
+                <button
+                    onClick={() => navigate("/view-cv")}
+                    className="mt-6 px-4 py-2 md:px-6 md:py-3 bg-yellow-500 text-black font-bold rounded-lg text-sm md:text-base hover:bg-white hover:text-yellow-500 transition-all"
+                >
                     <i className="fa-solid fa-download pr-2"></i> View CV
                 </button>
             </div>
