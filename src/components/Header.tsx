@@ -16,13 +16,14 @@ function Header() {
                     />
                 </div>
 
-                {/* Navigation (Hidden on Small Screens) */}
+                {/* Desktop Navigation */}
                 <nav className="hidden md:flex space-x-6 text-lg font-mono">
-                    <a href="#" className="hover:text-yellow-400">About</a>
-                    <a href="#" className="hover:text-yellow-400">Skills</a>
-                    <a href="#" className="hover:text-yellow-400">Projects</a>
-                    <a href="#" className="hover:text-yellow-400">Education</a>
-                    <a href="#" className="hover:text-yellow-400">Contact</a>
+                    <a href="#home" className="hover:text-yellow-400">Home</a>
+                    <a href="#whoami" className="hover:text-yellow-400">About</a>
+                    <a href="#skills" className="hover:text-yellow-400">Skills</a>
+                    <a href="#projects" className="hover:text-yellow-400">Projects</a>
+                    <a href="#education" className="hover:text-yellow-400">Education</a>
+                    <a href="#feedback" className="hover:text-yellow-400">Contact</a>
                 </nav>
 
                 {/* Mobile Menu Button */}
@@ -39,11 +40,12 @@ function Header() {
 
             {/* Mobile Dropdown Menu */}
             <div className={`${isOpen ? 'block' : 'hidden'} absolute top-16 right-0 bg-white text-black w-48 shadow-lg rounded-lg md:hidden`}>
-                <a href="#" className="block px-4 py-2 hover:bg-yellow-400">About</a>
-                <a href="#" className="block px-4 py-2 hover:bg-yellow-400">Skills</a>
-                <a href="#" className="block px-4 py-2 hover:bg-yellow-400">Projects</a>
-                <a href="#" className="block px-4 py-2 hover:bg-yellow-400">Education</a>
-                <a href="#" className="block px-4 py-2 hover:bg-yellow-400">Contact</a>
+                <a href="#home" className="block px-4 py-2 hover:bg-yellow-400" onClick={() => setIsOpen(false)}>Home</a>
+                <a href="#whoami" className="block px-4 py-2 hover:bg-yellow-400" onClick={() => setIsOpen(false)}>About</a>
+                <a href="#skills" className="block px-4 py-2 hover:bg-yellow-400" onClick={() => setIsOpen(false)}>Skills</a>
+                <a href="#projects" className="block px-4 py-2 hover:bg-yellow-400" onClick={() => setIsOpen(false)}>Projects</a>
+                <a href="#education" className="block px-4 py-2 hover:bg-yellow-400" onClick={() => setIsOpen(false)}>Education</a>
+                <a href="#feedback" className="block px-4 py-2 hover:bg-yellow-400" onClick={() => setIsOpen(false)}>Contact</a>
             </div>
         </header>
     );
