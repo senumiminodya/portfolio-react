@@ -16,7 +16,7 @@ function LatestProjects ()  {
             title: "Chat Application",
             description: "This is a chat application built using Java Socket Programming.",
             imgSrc: "/assets/index_page_images/body_images/what_I_had_done_latest/chat_application_image.png",
-            link: "https://github.com/senumiminodya/group-chat-application.git"
+            link: "https://github.com/senumiminodya/group-chat-app.git"
         },
         {
             title: "Library Management System",
