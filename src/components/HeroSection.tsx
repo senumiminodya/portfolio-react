@@ -10,9 +10,26 @@ function HeroSection() {
                 <h3 className="text-lg md:text-3xl font-mono">Full Stack Developer</h3>
                 <h3 className="text-lg md:text-3xl font-mono">Sri Lanka</h3>
                 <div className="flex gap-3 md:gap-4 mt-4">
-                    <img src="/assets/index_page_images/header_images/linkedin_logo.png" alt="LinkedIn" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
-                    <img src="/assets/index_page_images/header_images/facebook_logo.png" alt="Facebook" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
-                    <img src="/assets/index_page_images/header_images/github_logo.png" alt="GitHub" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
+                    <a href="https://www.linkedin.com/in/senumi-minodya-026a70246/" target="_blank"
+                       rel="noopener noreferrer">
+                        <img
+                            src="/assets/index_page_images/header_images/linkedin_logo.png"
+                            alt="LinkedIn"
+                            className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform"
+                        />
+                    </a>
+                    <a href="https://web.facebook.com/senumi.perera.98/" target="_blank"
+                       rel="noopener noreferrer">
+                        <img src="/assets/index_page_images/header_images/facebook_logo.png" alt="Facebook"
+                             className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform"/>
+                    </a>
+                    <a href="https://github.com/senumiminodya" target="_blank"
+                       rel="noopener noreferrer">
+                        <img src="/assets/index_page_images/header_images/github_logo.png"
+                             alt="GitHub"
+                             className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform"/>
+                    </a>
+
                 </div>
                 {/* View CV Button */}
                 <button
