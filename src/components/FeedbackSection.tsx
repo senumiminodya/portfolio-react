@@ -54,7 +54,7 @@ function FeedbackSection() {
     return (
         <section className="min-h-screen bg-gray-900 flex justify-center items-center p-6">
             <div className="w-full max-w-3xl">
-                <h1 className="text-5xl md:text-7xl font-bold text-center text-white font-amatic mb-8">
+                <h1 className="text-3xl md:text-7xl font-bold text-center text-white font-amatic mb-8">
                     FEEDBACK
                 </h1>
                 <form onSubmit={onSubmit} className="flex flex-col space-y-6">

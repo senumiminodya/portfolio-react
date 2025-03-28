@@ -34,7 +34,7 @@ function LatestProjects ()  {
     return (
         <section className="bg-yellow-500 text-white py-16 px-4 md:px-8 lg:px-16">
             <div className="flex justify-center mb-10">
-                <h1 className="text-4xl md:text-6xl text-black font-bold text-center leading-tight">WHAT I HAD DONE LATEST</h1>
+                <h1 className="text-3xl md:text-6xl text-black font-bold text-center leading-tight">WHAT I HAD DONE LATEST</h1>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
                 {projects.map((project, index) => (

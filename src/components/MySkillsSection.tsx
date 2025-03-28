@@ -3,8 +3,8 @@ function MySkillsSection() {
         <section className="flex flex-col md:flex-row justify-around items-center min-h-screen bg-yellow-500 p-6">
             {/* Center - Title (Appears First on Small Screens) */}
             <div className="text-center mb-6 md:mb-0 md:w-1/3 order-1 md:order-2" data-aos="fade-up">
-                <h1 className="my-6 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-amatic">MY</h1>
-                <h1 className="my-6 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-amatic">SKILLS</h1>
+                <h1 className="my-6 text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-amatic">MY</h1>
+                <h1 className="my-6 text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-amatic">SKILLS</h1>
             </div>
 
             {/* Left Side - Soft Skills (Second on Small Screens) */}

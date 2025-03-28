@@ -26,8 +26,8 @@ function EducationSection() {
         <section className="flex flex-col lg:flex-row justify-center items-center min-h-screen bg-yellow-500 p-6 lg:p-16 lg:gap-30">
             {/* Left Side */}
             <div className="text-center lg:text-left mb-8 lg:mb-0">
-                <h1 className="text-5xl lg:text-7xl font-bold font-amatic leading-tight">MY</h1>
-                <h1 className="text-5xl lg:text-7xl font-bold font-amatic leading-tight">EDUCATION</h1>
+                <h1 className="text-3xl lg:text-7xl font-bold font-amatic leading-tight">MY</h1>
+                <h1 className="text-3xl lg:text-7xl font-bold font-amatic leading-tight">EDUCATION</h1>
             </div>
 
             {/* Right Side */}
