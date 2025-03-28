@@ -1,3 +1,5 @@
+import Swal from 'sweetalert2';
+
 function FeedbackSection() {
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -23,13 +25,28 @@ function FeedbackSection() {
             if (res.success) {
                 console.log("Success:", res);
                 event.target.reset(); // Reset form after successful submission
-                alert("Feedback submitted successfully!");
+                Swal.fire({
+                    icon: "success",
+                    title: "Feedback Submitted!",
+                    text: "Thank you for your feedback.",
+                    confirmButtonColor: "#3085d6"
+                });
             } else {
-                alert("Submission failed. Please try again.");
+                Swal.fire({
+                    icon: "error",
+                    title: "Submission Failed",
+                    text: "Please try again.",
+                    confirmButtonColor: "#d33"
+                });
             }
         } catch (error) {
             console.error("Error:", error);
-            alert("An error occurred. Please try again later.");
+            Swal.fire({
+                icon: "error",
+                title: "An Error Occurred",
+                text: "Please try again later.",
+                confirmButtonColor: "#d33"
+            });
         }
     };
 

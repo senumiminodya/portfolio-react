@@ -1,4 +1,30 @@
+import { useState, useEffect } from "react";
+import "./WhoAmISection.css";
+
 function WhoAmI() {
+    const text = "Hello! I am Senumi. I am a passionate software engineering student who loves exploring technology and innovation. I enjoy learning new things and working with others to achieve great results. I am committed to improving my skills and contributing to the advancement of technology in every project I work on.";
+
+    const [displayedText, setDisplayedText] = useState("");
+    const [index, setIndex] = useState(0);
+
+    useEffect(() => {
+        setDisplayedText(""); // Reset text
+        setIndex(0); // Reset index
+
+        const interval = setInterval(() => {
+            setDisplayedText((prev) => {
+                if (prev.length < text.length) {
+                    return text.slice(0, prev.length + 1);
+                } else {
+                    clearInterval(interval);
+                    return prev;
+                }
+            });
+        }, 50); // Adjust speed here
+
+        return () => clearInterval(interval);
+    }, []); // Re-runs when the component mounts
+
     return (
         <section className="flex flex-col md:flex-row justify-center items-center min-h-screen bg-yellow-500 p-4 sm:p-6 md:gap-16 lg:gap-24">
             {/* Left Side */}
@@ -18,18 +44,7 @@ function WhoAmI() {
                     alt="Circle"
                     className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10"
                 />
-                <p>Hello! I am <strong>Senumi</strong>.</p>
-                <p>
-                    I am a passionate software engineering student who loves exploring
-                    technology and innovation.
-                </p>
-                <p>
-                    I enjoy learning new things and working with others to achieve great results.
-                </p>
-                <p>
-                    I am committed to improving my skills and contributing to the advancement of
-                    technology in every project I work on.
-                </p>
+                <p>{displayedText}<span className="animate-blink">|</span></p>
                 <img
                     src="src/assets/index_page_images/body_images/who%20i%20am/black%20circle.png"
                     alt="Circle"
