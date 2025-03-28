@@ -43,7 +43,7 @@ function HeroSection() {
             {/* Hero Center (Moves to Top on Mobile) */}
             <div className="profile rounded-l-full relative w-40 h-52 my-[10px] md:w-[250px] md:h-[350px] rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 order-3">
                 <img
-                    src="/assets/index_page_images/header_images/photo.png"
+                    src="/assets/index_page_images/header_images/photo1.png"
                     alt="My Profile Picture"
                     className="w-full h-full object-cover"
                 />
