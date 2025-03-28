@@ -1,9 +1,10 @@
 import Swal from 'sweetalert2';
 
 function FeedbackSection() {
-    const onSubmit = async (event) => {
+    const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        const formData = new FormData(event.target);
+        const form = event.currentTarget; // Use event.currentTarget instead of event.target
+        const formData = new FormData(form);
 
         formData.append("access_key", "bf80dab3-9f09-4045-869b-4306a3de2899");
 
@@ -24,7 +25,7 @@ function FeedbackSection() {
 
             if (res.success) {
                 console.log("Success:", res);
-                event.target.reset(); // Reset form after successful submission
+                form.reset(); // Reset form after successful submission
                 Swal.fire({
                     icon: "success",
                     title: "Feedback Submitted!",

@@ -12,18 +12,16 @@ function WhoAmI() {
         setIndex(0); // Reset index
 
         const interval = setInterval(() => {
-            setDisplayedText((prev) => {
-                if (prev.length < text.length) {
-                    return text.slice(0, prev.length + 1);
-                } else {
-                    clearInterval(interval);
-                    return prev;
-                }
-            });
+            setDisplayedText((prev) => text.slice(0, prev.length + 1));
+            setIndex((prevIndex) => prevIndex + 1);
+
+            if (index >= text.length - 1) {
+                clearInterval(interval);
+            }
         }, 50); // Adjust speed here
 
         return () => clearInterval(interval);
-    }, []); // Re-runs when the component mounts
+    }, []); // Runs once on mount
 
     return (
         <section className="flex flex-col md:flex-row justify-center items-center min-h-screen bg-yellow-500 p-4 sm:p-6 md:gap-16 lg:gap-24">
