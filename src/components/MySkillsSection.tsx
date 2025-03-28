@@ -28,7 +28,7 @@ function MySkillsSection() {
                     ].map((tech, index) => (
                         <div key={index} className="flex flex-col items-center">
                             <img
-                                src={`/src/assets/index_page_images/body_images/my%20skills/${tech}%20icon.png`}
+                                src={`/assets/index_page_images/body_images/my%20skills/${tech}%20icon.png`}
                                 alt={tech}
                                 title={tech}
                                 className="h-12 w-12"

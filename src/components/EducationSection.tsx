@@ -34,7 +34,7 @@ function EducationSection() {
             <div className="space-y-6 w-full max-w-2xl">
                 {educationData.map((edu, index) => (
                     <div key={index} className="flex items-start space-x-4">
-                        <img src="/src/assets/index_page_images/body_images/my%20education/black%20circle.png" alt="icon" className="w-6 h-6 lg:w-8 lg:h-8" />
+                        <img src="/assets/index_page_images/body_images/my%20education/black%20circle.png" alt="icon" className="w-6 h-6 lg:w-8 lg:h-8" />
                         <div>
                             <h3 className="text-xl lg:text-2xl font-jetbrains font-bold">{edu.title}</h3>
                             <p className="text-md lg:text-lg font-mono">({edu.institution})</p>

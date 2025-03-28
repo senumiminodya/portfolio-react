@@ -10,7 +10,7 @@ function Header() {
                 {/* Logo Section */}
                 <div className="flex-shrink-0">
                     <img
-                        src="/src/assets/index_page_images/header_images/senu_logo.png"
+                        src="/assets/index_page_images/header_images/senu_logo.png"
                         alt="senu logo"
                         className="w-16 h-8 md:w-32 md:h-16"
                     />

@@ -3,31 +3,31 @@ function LatestProjects ()  {
         {
             title: "Class Management System",
             description: "This is a Mern stack system with JWT authentication, Bcrypt, Mongoose ODM, and Mongo DB.",
-            imgSrc: "src/assets/index_page_images/body_images/what_I_had_done_latest/class_management_system.jpg",
+            imgSrc: "/assets/index_page_images/body_images/what_I_had_done_latest/class_management_system.jpg",
             link: "https://github.com/senumiminodya/Class-Management-System-Front-End.git"
         },
         {
             title: "Crop Monitoring System",
             description: "This is a Java SpringBoot system with JWT authentication, Hibernate ORM, and MySQL, efficient database operations, and seamless client-server communication.",
-            imgSrc: "src/assets/index_page_images/body_images/what_I_had_done_latest/crop_monitoring_system.jpg",
+            imgSrc: "/assets/index_page_images/body_images/what_I_had_done_latest/crop_monitoring_system.jpg",
             link: "https://github.com/senumiminodya/Crop-Management-System.git"
         },
         {
             title: "Chat Application",
             description: "This is a chat application built using Java Socket Programming.",
-            imgSrc: "src/assets/index_page_images/body_images/what_I_had_done_latest/chat_application_image.png",
+            imgSrc: "/assets/index_page_images/body_images/what_I_had_done_latest/chat_application_image.png",
             link: "https://github.com/senumiminodya/group-chat-application.git"
         },
         {
             title: "Library Management System",
             description: "This is a library management system built using ORM Concept.",
-            imgSrc: "src/assets/index_page_images/body_images/what_I_had_done_latest/library.png",
+            imgSrc: "/assets/index_page_images/body_images/what_I_had_done_latest/library.png",
             link: "https://github.com/senumiminodya/book-worm.git"
         },
         {
             title: "POS System",
             description: "This is a POS system for a grocery shop.",
-            imgSrc: "src/assets/index_page_images/body_images/what_I_had_done_latest/pos_system.png",
+            imgSrc: "/assets/index_page_images/body_images/what_I_had_done_latest/pos_system.png",
             link: "https://github.com/senumiminodya/store-stream-pos-system.git"
         }
     ];

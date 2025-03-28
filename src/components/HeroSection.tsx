@@ -10,9 +10,9 @@ function HeroSection() {
                 <h3 className="text-lg md:text-3xl font-mono">Full Stack Developer</h3>
                 <h3 className="text-lg md:text-3xl font-mono">Sri Lanka</h3>
                 <div className="flex gap-3 md:gap-4 mt-4">
-                    <img src="/src/assets/index_page_images/header_images/linkedin_logo.png" alt="LinkedIn" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
-                    <img src="/src/assets/index_page_images/header_images/facebook_logo.png" alt="Facebook" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
-                    <img src="/src/assets/index_page_images/header_images/github_logo.png" alt="GitHub" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
+                    <img src="/assets/index_page_images/header_images/linkedin_logo.png" alt="LinkedIn" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
+                    <img src="/assets/index_page_images/header_images/facebook_logo.png" alt="Facebook" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
+                    <img src="/assets/index_page_images/header_images/github_logo.png" alt="GitHub" className="w-8 h-8 md:w-12 md:h-12 cursor-pointer hover:scale-110 transition-transform" />
                 </div>
                 {/* View CV Button */}
                 <button
@@ -26,7 +26,7 @@ function HeroSection() {
             {/* Hero Center (Moves to Top on Mobile) */}
             <div className="profile rounded-l-full relative w-40 h-52 my-[10px] md:w-[250px] md:h-[350px] rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 order-3">
                 <img
-                    src="/src/assets/index_page_images/header_images/photo.png"
+                    src="/assets/index_page_images/header_images/photo.png"
                     alt="My Profile Picture"
                     className="w-full h-full object-cover"
                 />

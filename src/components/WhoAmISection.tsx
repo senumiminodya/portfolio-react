@@ -38,13 +38,13 @@ function WhoAmI() {
             {/* Right Side */}
             <div className="flex flex-col max-w-xs sm:max-w-md md:max-w-lg px-4 items-center space-y-4 text-center text-base sm:text-lg md:text-xl font-mono text-gray-900">
                 <img
-                    src="src/assets/index_page_images/body_images/who%20i%20am/black%20circle.png"
+                    src="../../public/assets/index_page_images/body_images/who%20i%20am/black%20circle.png"
                     alt="Circle"
                     className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10"
                 />
                 <p>{displayedText}<span className="animate-blink">|</span></p>
                 <img
-                    src="src/assets/index_page_images/body_images/who%20i%20am/black%20circle.png"
+                    src="../../public/assets/index_page_images/body_images/who%20i%20am/black%20circle.png"
                     alt="Circle"
                     className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10"
                 />
