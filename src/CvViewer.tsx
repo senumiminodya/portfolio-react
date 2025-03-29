@@ -4,7 +4,7 @@ const CvViewer: React.FC = () => {
     return (
         <div className="w-screen h-screen bg-black flex justify-center items-center">
         <iframe
-            src="/cv.pdf"
+            src="/Senumi-Minodya.pdf"
             title="CV Viewer"
             className="w-full h-full border-none"
         ></iframe>
