@@ -7,7 +7,7 @@ function HeroSection() {
 
             {/* Hero Left Side (Bottom on Mobile, Left on Desktop) */}
             <div className="flex flex-col items-center my-[10px] md:items-start text-center md:text-left w-full md:w-1/3">
-                <h3 className="text-lg md:text-3xl font-mono">Full Stack Developer</h3>
+                <h3 className="text-lg md:text-3xl font-mono">Aspiring IT Project Manager</h3>
                 <h3 className="text-lg md:text-3xl font-mono">Sri Lanka</h3>
                 <div className="flex gap-3 md:gap-4 mt-4">
                     <a href="https://www.linkedin.com/in/senumi-minodya-026a70246/" target="_blank"
